@@ -27,7 +27,7 @@ value = string.indexOf('string');
 // 4. Найти положение второго пробела (“вручную” ничего не считать)
 
 value = string.indexOf(' ');
-value = string.indexOf(' ', value+1);
+value = string.indexOf(' ', value + 1);
 // 5. Получить строку с 5-го символа длиной 4 буквы
 
 value = string.slice(4, 8);
@@ -43,7 +43,7 @@ value = string.slice(0, -6);
 let a = 20,
     b = 16;
 
-value = String(a)+String(b);
+value = String(a) + String(b);
 
 
 // Числа. Задачи.
